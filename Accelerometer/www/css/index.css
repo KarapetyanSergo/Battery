@@ -6,7 +6,7 @@ body {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
-    background-color:black;
+    background-color:white;
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
     font-size:12px;
     height:100%;
@@ -38,19 +38,16 @@ body {
 
 #main{
     width: 260px;
-    height: 500px;
-    margin: 52px 0;
-    float: left;
-    background-image: url("../img/battery-img.jpg");
+    height: 300px;
+    margin-left: 50px;
+    background-image: url("../img/battery-img.png");
 }
 
 #level{
-    width: 100px;
-    height: 400px;
     font-size: 40px;
-    margin: 75px 100px;
-    float: left;
+    margin: 120px;
     color: white;
+    float: left;
 }
 
 #none{
@@ -59,17 +56,26 @@ body {
 
 #lightning{
     font-size: 30px;
-    margin: 150px 30px;
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+    float: left;
+    margin: 10px;
 }
 
 .green{
-    color: green;
+    background-color: green;
 }
 
 .blue{
-   color: blue;
+   background-color: blue;
 }
 
 .red{
-    color: red;
+    background-color: red;
+}
+
+#condition{
+    font-size: 15px;
+    float: left;
 }
