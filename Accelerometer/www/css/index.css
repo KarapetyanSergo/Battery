@@ -44,14 +44,6 @@ body {
     background-image: url("../img/battery-img.jpg");
 }
 
-#top{
-    width: 50px;
-    height: 50px;
-    border: 1px solid red;
-    float: left;
-    margin-left: 150px;
-}
-
 #level{
     width: 100px;
     height: 400px;
